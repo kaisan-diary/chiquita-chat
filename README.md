@@ -1,24 +1,75 @@
-# README
+アプリケーション名
+  chiquita-chat
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+アプリケーション概要
+ アプリケーション「chiquita-chat」は卓球愛好者内で大会や用具などの情報発信や共有ができるwebアプリケーションです。
 
-Things you may want to cover:
+機能実装
+ ルームの参加、退出機能
+ アクセス制限、roomの権限 
 
-* Ruby version
+ # テーブル設計
 
-* System dependencies
+## users テーブル
 
-* Configuration
+| Column   | Type   | Options     |
+| -------- | ------ | ----------- |
+| nickname           | string | null: false |
+| email              | string | null: false |
+| encrypted_password | string | null: false |
 
-* Database creation
+### Association
+- has_many :categories
+- has_many :room_users
+- has_many :rooms, through: room_users
+- has_many :messages
 
-* Database initialization
+## categories テーブル
 
-* How to run the test suite
+| Column   | Type   | Options     |
+| -------- | ------ | ----------- |
+| name     | string | null: false |
 
-* Services (job queues, cache servers, search engines, etc.)
+### Association
 
-* Deployment instructions
+- belongs_to :user
+- has_many :rooms
+- has_many :messages
 
-* ...
+
+## rooms テーブル
+
+| Column | Type   | Options     |
+| ------ | ------ | ----------- |
+| room_name         | string | null: false |
+| room_description  | text | null: false |
+| user              | references | null: false, foreign_key :true|
+
+### Association
+- belongs_to :category
+- has_many :room_users
+- has_many :users, through: room_users
+- has_many :messages
+
+## room_users テーブル
+
+| Column | Type       | Options                        |
+| ------ | ---------- | ------------------------------ |
+| user   | references | null: false, foreign_key: true |
+| room   | references | null: false, foreign_key: true |
+
+### Association
+- belongs_to :room
+- belongs_to :user
+
+## messages テーブル
+
+| Column  | Type       | Options                        |
+| ------- | ---------- | ------------------------------ |
+| content | text       |                                |
+| user    | references | null: false, foreign_key: true |
+| room    | references | null: false, foreign_key: true |
+
+### Association
+- belongs_to :room
+- belongs_to :user
