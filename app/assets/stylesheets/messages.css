@@ -23,6 +23,10 @@
   text-decoration: none;
 }
 
+.fa-table-tennis{
+  color: aquamarine;
+}
+
 .create-room a{
   font-size: 10px;
   border: 1px solid lightblue;

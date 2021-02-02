@@ -42,7 +42,7 @@
 | Column | Type   | Options     |
 | ------ | ------ | ----------- |
 | room_name         | string | null: false |
-| room_description  | text | null: false |
+| room_description  | text | 
 | user              | references | null: false, foreign_key :true|
 
 ### Association
