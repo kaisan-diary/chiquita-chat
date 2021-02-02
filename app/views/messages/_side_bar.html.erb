@@ -1,22 +1,20 @@
 <div class="side-bar-header">
   <div class="header-name">
     <%= link_to current_user.nickname, edit_user_path(current_user) %>
+            <i class="fas fa-table-tennis"></i>  
   </div>
   <div class="create-room">
-    <a href="#">チャットを作成する</a>
+    <%= link_to "チャットを作成する", new_room_path%>
   </div>
 </div>
 
 <div class="rooms">
-  <div class="room">
-    <div class="room-name">
-      <a href="#">techroom1</a>
-      <i class="fas fa-table-tennis"></i>  
+  <% current_user.rooms.each do |room| %>
+    <div class="room">
+      <div class="room-name">
+        <a href="#"><%= room.room_name %></a>
+        <i class="fas fa-table-tennis"></i>  
+      </div>
     </div>
-  </div>
-  <div class="room">
-    <div class="room-name">
-      <a href="#">techroom2</a>
-    </div>
-  </div>
+  <% end %>  
 </div>
