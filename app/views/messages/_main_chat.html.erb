@@ -1,14 +1,19 @@
 <div class="chat-header">
     <div class="left-header">
-    <div class="header-title">
-      <%= @room.room_name %>
+      <div class="header-title">
+       <b><%= @room.room_name %></b>
+      </div>
+    </div>  
+    <div class="middle-header">
+      <div class="header-description">
+        <%= @room.room_description%>
+      </div>
     </div>
-  </div>
-  <div class="right-header">
-    <div class="header-button">
-      <%= link_to "チャットを終了する", room_path(@room), method: :delete %>
+    <div class="right-header">
+      <div class="header-button">
+        <%= link_to "チャットを終了する", room_path(@room), method: :delete %>
+      </div>
     </div>
-  </div>
 </div>
 
 <div class="messages">
