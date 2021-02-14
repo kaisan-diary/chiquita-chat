@@ -104,15 +104,15 @@
   display: inline-block;
   margin: 1.5em 15px 1.5em 0;
   padding: 0 5px;
-  width: 90px;
-  height: 90px;
-  line-height: 90px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
   text-align: center;
   color: #FFF;
   font-size: 20px;
   font-weight: bold;
   background: #ff8e9d;
-  border-radius: 100px;
+  border-radius: 60px;
   box-sizing: border-box;
 }
 
@@ -145,7 +145,7 @@
   position: relative; 
   padding: 17px 13px;
   border-radius: 12px;
-  background: #d7ebfe;
+  background: #0df35a;
 }
 
 
@@ -156,7 +156,7 @@
   top: 18px; 
   left: -24px;
   border: 12px solid transparent;
-  border-right: 12px solid #d7ebfe;
+  border-right: 12px solid #0df35a;
 
 }
 

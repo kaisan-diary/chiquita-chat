@@ -6,9 +6,8 @@
 }
 
 .chiquita-logo {
-  width: 100px;
-  margin-top: 5px;
-  border-radius: 100px;
+  height: 65px;
+  width: 200px;
 }
 
 .main-nav {
@@ -36,3 +35,12 @@
   background-color: rgb(53, 157, 255);
   color: #ffffff;
   text-decoration: none;
+}
+
+.top-img {
+  background-image: url("takkyuu_img.jpg");
+  background-position: center top;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
