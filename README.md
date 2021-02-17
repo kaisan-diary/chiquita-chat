@@ -15,14 +15,12 @@
 # 主なアプリ機能
  ## 1.ユーザー管理機能
   ヘッダーの「ログイン」をクリックします。(アカウント登録していない場合は「新規登録」をクリックして新規アカウント作成ページへ進んでください。ここでは割愛します。)
-  [![Image from Gyazo](https://i.gyazo.com/dc5b0e95c27e437c37f3abda2e125a28.gif)](https://gyazo.com/dc5b0e95c27e437c37f3abda2e125a28)
 
   必要な情報を入力して「Log in」をクリックするとチャット画面に遷移します。
-  [![Image from Gyazo](https://i.gyazo.com/934ac70314fb7a8bc8c2bcd23b687e6a.gif)](https://gyazo.com/934ac70314fb7a8bc8c2bcd23b687e6a)
+   [![Image from Gyazo](https://i.gyazo.com/934ac70314fb7a8bc8c2bcd23b687e6a.gif)](https://gyazo.com/934ac70314fb7a8bc8c2bcd23b687e6a)
 
 ## 2.チャットルーム管理機能
    画面左上の「チャットを作成する」をクリックします。
-   [![Image from Gyazo](https://i.gyazo.com/b4cc512e498a7bd3b2f7bd7aaccb880f.gif)](https://gyazo.com/b4cc512e498a7bd3b2f7bd7aaccb880f)
 
    必要な情報を入力し、チャットしたいユーザーを選択して「作成」をクリックするとチャット画面に遷移します。そして作成したルーム名をクリックするとメッセージ投稿画面に遷移します。
    [![Image from Gyazo](https://i.gyazo.com/4582ce5dbfe53c163f3a2a2ab9852711.gif)](https://gyazo.com/4582ce5dbfe53c163f3a2a2ab9852711)
