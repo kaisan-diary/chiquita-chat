@@ -17,13 +17,14 @@
   ヘッダーの「ログイン」をクリックします。(アカウント登録していない場合は「新規登録」をクリックして新規アカウント作成ページへ進んでください。ここでは割愛します。)
 
   必要な情報を入力して「Log in」をクリックするとチャット画面に遷移します。
-   [![Image from Gyazo](https://i.gyazo.com/934ac70314fb7a8bc8c2bcd23b687e6a.gif)](https://gyazo.com/934ac70314fb7a8bc8c2bcd23b687e6a)
+   ![258a22a154f7b5fd22c4250eebcab8e2](https://user-images.githubusercontent.com/75722248/108200650-1819a680-7162-11eb-8074-b285f528763e.gif)
+
 
 ## 2.チャットルーム管理機能
    画面左上の「チャットを作成する」をクリックします。
 
    必要な情報を入力し、チャットしたいユーザーを選択して「作成」をクリックするとチャット画面に遷移します。そして作成したルーム名をクリックするとメッセージ投稿画面に遷移します。
-   [![Image from Gyazo](https://i.gyazo.com/4582ce5dbfe53c163f3a2a2ab9852711.gif)](https://gyazo.com/4582ce5dbfe53c163f3a2a2ab9852711)
+   ![ce9d6eecfa99bd19aa08d08259237831](https://user-images.githubusercontent.com/75722248/108200246-84e07100-7161-11eb-970a-1129f4e9e1d5.gif)
 
 ## 3.メッセージ投稿機能
    送信したいメッセージを記述し、「送信」ボタンをクリックすると画面にメッセージが表示されます。
