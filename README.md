@@ -3,36 +3,37 @@
 
 # アプリケーション概要
  アプリケーション「chiquita-chat」は卓球愛好者内で大会や用具、ニュースなどの情報発信や共有ができるwebアプリケーションです。
- https://gyazo.com/2b1a9c88a405e057d3ae1204e90cde8a
+[![Image from Gyazo](https://i.gyazo.com/2cce97b05170880a0b7126864fa48a3a.jpg)](https://gyazo.com/2cce97b05170880a0b7126864fa48a3a)
 
 # アプリケーション情報
-## URL
+## URL 開発中
 
 ## テストアカウント 
  ・E-mail: test@example
  ・Password: saboten10
 
-# アプリ機能
+# 主なアプリ機能
  ## 1.ユーザー管理機能
   ヘッダーの「ログイン」をクリックします。(アカウント登録していない場合は「新規登録」をクリックして新規アカウント作成ページへ進んでください。ここでは割愛します。)
-  https://gyazo.com/96ef99b7c4be88a0899e6f8646ddb183
+  [![Image from Gyazo](https://i.gyazo.com/dc5b0e95c27e437c37f3abda2e125a28.gif)](https://gyazo.com/dc5b0e95c27e437c37f3abda2e125a28)
 
   必要な情報を入力して「Log in」をクリックするとチャット画面に遷移します。
-  https://gyazo.com/b4da0c6307b4cd5df1abed2b8b6aa9fb
+  [![Image from Gyazo](https://i.gyazo.com/934ac70314fb7a8bc8c2bcd23b687e6a.gif)](https://gyazo.com/934ac70314fb7a8bc8c2bcd23b687e6a)
 
 ## 2.チャットルーム管理機能
    画面左上の「チャットを作成する」をクリックします。
-   https://gyazo.com/a1affc42fb2a9298cd1df537343612d5
+   [![Image from Gyazo](https://i.gyazo.com/b4cc512e498a7bd3b2f7bd7aaccb880f.gif)](https://gyazo.com/b4cc512e498a7bd3b2f7bd7aaccb880f)
 
    必要な情報を入力し、チャットしたいユーザーを選択して「作成」をクリックするとチャット画面に遷移します。そして作成したルーム名をクリックするとメッセージ投稿画面に遷移します。
-   https://gyazo.com/0ed1ead52419574c655d02238ba2eec2
+   [![Image from Gyazo](https://i.gyazo.com/4582ce5dbfe53c163f3a2a2ab9852711.gif)](https://gyazo.com/4582ce5dbfe53c163f3a2a2ab9852711)
 
 ## 3.メッセージ投稿機能
    送信したいメッセージを記述し、「送信」ボタンをクリックすると画面にメッセージが表示されます。
-   https://gyazo.com/9772f6f5240cb4ca3d3aba90425818aa
+   [![Image from Gyazo](https://i.gyazo.com/47e37b95c35f7ebf8827568c4918ab8e.gif)](https://gyazo.com/47e37b95c35f7ebf8827568c4918ab8e)
 
 ## 4.画像投稿機能
    「画像」ボタンをクリックすると送信したい画像を選択できます。
+[![Image from Gyazo](https://i.gyazo.com/158613c445b1b33b9874d4269f4204a0.jpg)](https://gyazo.com/158613c445b1b33b9874d4269f4204a0)
 
 # 今後実装したい機能
  ルームの参加、退出機能
