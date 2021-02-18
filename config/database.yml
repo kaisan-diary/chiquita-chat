@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: chiquita_chat_production
-  username: chiquita_chat
-  password: <%= ENV['CHIQUITA_CHAT_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
