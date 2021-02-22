@@ -1,0 +1,72 @@
+.header-container {
+  height: 65px;
+  background-color: rgba(255, 254, 254, 0.85);
+  display: flex;
+  justify-content: space-between;
+}
+
+.chiquita-logo {
+  height: 65px;
+  width: 200px;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin-top: 13px;
+}
+
+.header-btn {
+  margin-right: 30px;
+  font-size: 18px;
+}
+
+.header-btn a {
+  border: rgb(161, 14, 190) solid 2px;
+  color: rgb(161, 14, 190);
+  user-select: none;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.header-btn a:hover {
+  background-color: rgb(161, 14, 190);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.top-img {
+  background-image: image-url( "takkyuu_img.jpg" );
+  background-position: center top;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.index-main-container {
+  color: #ffffff;
+  position: absolute;
+  top: 130px;
+  left: 70px;
+}
+
+.index-heading {
+  font-feature-settings: "palt";
+  font-size: 400%;
+  margin-bottom: 30px;
+}
+
+.index-heading span {
+  color: rgb(255, 14, 94);
+}
+
+.index-text {
+  margin-left: 20px;
+  font-size: 130%;
+  white-space: nowrap;
+  color: rgb(255, 14, 94);
+}
+
+
