@@ -6,7 +6,7 @@
 [![Image from Gyazo](https://i.gyazo.com/2cce97b05170880a0b7126864fa48a3a.jpg)](https://gyazo.com/2cce97b05170880a0b7126864fa48a3a)
 
 # アプリケーション情報
-## URL 開発中
+## URL http://35.72.47.119/
 
 ## テストアカウント 
  ・E-mail: test@example
